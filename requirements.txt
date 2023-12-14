@@ -9,3 +9,4 @@ imblearn.over_sampling
 imblearn.under_sampling
 sklearn.svm
 sklearn.preprocessing
+pickle

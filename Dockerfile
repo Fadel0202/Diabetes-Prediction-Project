@@ -2,7 +2,7 @@
 FROM python:3.8-alpine
 
 # Copie des fichiers nécessaires dans le conteneur
-COPY ./app
+COPY . /app
 
 # Installation des dépendances (scikit-learn)
 RUN pip install -r requirements.txt
