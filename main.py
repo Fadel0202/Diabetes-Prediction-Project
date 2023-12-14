@@ -41,7 +41,7 @@ def classifier(mat, model):
         pred : list of predicted labels
     '''
     if model=='SVM':
-        model = pickle.load(open("classification_modele_random_forest.pkl", "rb"))
+        model = pickle.load(open("classification_model_svm.pkl", "rb"))
         pred = model.predict(mat)
         
     elif model=='RF':
