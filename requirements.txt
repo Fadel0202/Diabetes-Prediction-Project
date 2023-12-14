@@ -1,2 +1,11 @@
 scikit-learn
 pandas
+numpy
+matplotlib.pyplot
+sklearn.model_selection
+sklearn.ensemble
+sklearn.metrics
+imblearn.over_sampling
+imblearn.under_sampling
+sklearn.svm
+sklearn.preprocessing
