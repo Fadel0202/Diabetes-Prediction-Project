@@ -49,7 +49,7 @@ def classifier(mat, model):
         pred = model.predict(mat)
         
     elif model=='GBC':
-        model = pickle.load(open("classification_modele_random_forest.pkl", "rb"))
+        model = pickle.load(open("gning_gbc.pkl", "rb"))
         pred = model.predict(mat)
         
     else:
